@@ -1,6 +1,6 @@
 {
   "name": "Proyecto_TEDx",
-  "homepage": "http://{username}.github.io/{repo-name}",
+  "homepage": "http://MatiasNicolas1.github.io/Bootstrap",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "deploy":"gh-pages -d build"
+    "deploy":"gh-pages"
   },
   "keywords": [],
   "author": "",

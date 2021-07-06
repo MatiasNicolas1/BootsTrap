@@ -1,0 +1,17 @@
+{
+  "name": "Proyecto_TEDx",
+  "homepage": "http://{username}.github.io/{repo-name}",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "deploy":"gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

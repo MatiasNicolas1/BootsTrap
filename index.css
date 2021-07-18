@@ -66,17 +66,16 @@ body::-webkit-scrollbar-thumb{
     height: 100%;
 }
 
-#place-time .container-fluid{
-    background-color: #f3f3f3;
-}
-
-
 #place-time img{
     max-width: 100%;
 }
 
 #place-time{
     color: black;
+}
+
+#place-time .container-fluid .place-time-row{
+    background-color: #f3f3f3;
 }
 
 .card .badge-orange{

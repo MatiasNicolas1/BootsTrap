@@ -38,6 +38,7 @@ body::-webkit-scrollbar-thumb{
 
 #header img{
     width: 80px;
+    padding-right: 8px;
 }
 
 #main .carousel-inner img{

@@ -67,16 +67,15 @@ body::-webkit-scrollbar-thumb{
 }
 
 #place-time .container-fluid{
-    margin-top: 50px;
-    margin-bottom: 25px;
+    background-color: #f3f3f3;
 }
+
 
 #place-time img{
     max-width: 100%;
 }
 
 #place-time{
-    background-color: #f3f3f3;
     color: black;
 }
 
@@ -119,4 +118,35 @@ body::-webkit-scrollbar-thumb{
 .modal-body .btn-platzi:hover{
     background-color: #d82b1e;
     color: white;
+}
+
+@media (min-width: 320px){
+    #main h1{
+        font-size: 1.5rem;
+    }
+    #main a{
+        font-size: 0.8rem;
+    }
+    #main button{
+        font-size: 0.8rem;
+    }
+    #header .img{
+        width: 60px;
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 1024px){
+    #main h1{
+        font-size: 2.5rem;
+    }
+    #main a{
+        font-size: 1.1rem;
+    }
+    #main button{
+        font-size: 1.1rem;
+    }
+    #header .img{
+        width: 80px;
+    }
 }
